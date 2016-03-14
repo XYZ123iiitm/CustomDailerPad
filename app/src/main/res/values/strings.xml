@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomDailerPad</string>
+    <string name="Enter_number">Enter number</string>
+    <string name="erase">Erase</string>
+    <string name="click">Click</string>
+    <string name="nextkeypad">Nextkeypad</string>
+    <string name="call">Call</string>
+    <string name="setting">Setting</string>
+
+</resources>

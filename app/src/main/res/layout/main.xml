@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:id="@+id/xMLayout"
+	android:background="#ffffff"
+	android:layout_height="fill_parent"
+	android:focusable="true"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:id="@+id/xsubLayout"
+		android:keepScreenOn="true"
+		android:orientation="vertical"
+		android:layout_height="fill_parent">
+
+		<EditText
+			android:id="@+id/xEt"
+			android:layout_width="fill_parent"
+			android:focusableInTouchMode="true"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="450dp"
+			android:background="#1E90FF"
+			android:textColor="#fff"/>
+		<EditText android:id="@+id/et1"
+				  android:layout_width="fill_parent"
+			      android:layout_below="@+id/xEt"
+				  android:layout_height="wrap_content"
+				  android:background="#1E90FF"
+				  android:textColor="#fff"/>
+	</RelativeLayout>
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:id="@+id/xK1"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:visibility="gone">
+
+		<include android:id="@+id/xKeyBoard"
+			layout="@layout/keyboard">
+
+		</include>
+
+	</RelativeLayout>
+</RelativeLayout>
