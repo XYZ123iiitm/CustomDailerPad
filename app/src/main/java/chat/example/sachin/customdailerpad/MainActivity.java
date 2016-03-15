@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b1=(ImageButton)findViewById(R.id.ButtonDelete1);
+        b1 = (ImageButton) findViewById(R.id.ButtonDelete1);
         e1=(EditText)findViewById(R.id.editText_dialpad);
         b1.setOnLongClickListener(new View.OnLongClickListener ()
         {
@@ -25,10 +25,10 @@ public class MainActivity extends Activity {
             public boolean onLongClick(View v)
             {
                 while(s.length()>=1) {
-                   for(int i=0;i<1000000;i++)
-                   {
+                    for(int i=0;i<1000000;i++)
+                    {
 
-                   }
+                    }
                     s = s.substring(0, s.length() - 1);
                     e1.setText(s);
 
@@ -37,24 +37,24 @@ public class MainActivity extends Activity {
 
         });
     }
-public void onClick(View v)
-{
+    public void onClick(View v)
+    {
 
-    Intent i =new Intent(this,MyActivity.class);
-    startActivity(i);
-}
-    public void button0(View v)
-    {
-        int a=0;
-        s=s+""+a;
+        Intent i =new Intent(this,MyActivity.class);
+        startActivity(i);
+    }
+    public void button0(View v) {
+        int a = 0;
+        s = s + "" + a;
         e1.setText(s);
     }
-    public void button1(View v)
-    {
-        int a=1;
-        s=s+""+a;
+
+    public void button1(View v) {
+        int a = 1;
+        s = s + "" + a;
         e1.setText(s);
     }
+
     public void button2(View v)
     {
         int a=2;

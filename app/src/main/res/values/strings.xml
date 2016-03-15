@@ -6,5 +6,8 @@
     <string name="nextkeypad">Nextkeypad</string>
     <string name="call">Call</string>
     <string name="setting">Setting</string>
+    <string name="Search_in_contact">Search in contacts</string>
+    <string name="value">\@</string>
+    <string name="title_activity_my">MyActivity</string>
 
 </resources>
